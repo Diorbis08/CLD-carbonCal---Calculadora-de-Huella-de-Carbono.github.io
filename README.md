@@ -26,11 +26,6 @@ Cada respuesta se utiliza para calcular tu huella de carbono anual en kilogramos
 - **Transiciones suaves:** Disfruta de transiciones suaves entre cada pregunta para una experiencia interactiva y atractiva.
 - **Resultados inmediatos:** Obtén tu resultado de huella de carbono al instante y descubre tu impacto ambiental anual.
 
-## Fondo Inspirador
-
-Para crear un ambiente agradable y motivador, nuestra calculadora utiliza una imagen de fondo de un hermoso bosque, recordándonos la importancia de cuidar nuestro planeta y preservar su belleza natural.
-
-![Fondo del bosque](forest_background.gif.jpg)
 
 ## Empieza a calcular tu huella de carbono ahora
 
