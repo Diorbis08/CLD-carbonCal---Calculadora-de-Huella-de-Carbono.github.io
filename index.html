@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLD CarbonCalc 
+        <p>Calculadora de Huella de Carbono</p> 
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CLD CarbonCalc 
+            <p>Calculadora de Huella de Carbono</p> 
+        </h1>
+        <form id="carbon-form">
+            <label for="electricity">Consumo de electricidad (kWh/mes):</label>
+            <input type="number" id="electricity" name="electricity" required>
+            
+            <label for="gas">Consumo de gas (galones/mes):</label>
+            <input type="number" id="gas" name="gas" required>
+            
+            <label for="water">Consumo de agua (litros/mes):</label>
+            <input type="number" id="water" name="water" required>
+            
+            <label for="flights">Número de vuelos anuales:</label>
+            <input type="number" id="flights" name="flights" required>
+            
+            <label for="car">Kilómetros recorridos en coche (km/mes):</label>
+            <input type="number" id="car" name="car" required>
+            
+            <button type="button" onclick="calculateCarbonFootprint()">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
